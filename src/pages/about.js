@@ -15,8 +15,8 @@ const About = () => {
       id="about"
       className="bg-gradient-to-b from-sky-200 to-sky-300 min-h-screen flex items-center justify-center pt-6 pb-16 px-8"
     >
-      <div className="bg-white rounded-3xl shadow-lg flex flex-col md:flex-row items-center max-w-6xl w-full overflow-hidden p-0">
-        <div className="md:w-2/3 p-8 text-gray-800">
+      <div className="bg-white rounded-3xl shadow-lg flex flex-col md:flex-row items-center max-w-full w-full p-0">
+        <div className="md:w-2/3 p-8 text-gray-800 w-full">
           <h1 className="text-4xl font-extrabold mb-4">
             A Bit{" "}
             <span className="underline decoration-4 decoration-sky-500">
@@ -62,7 +62,7 @@ const About = () => {
             —I’d love to hear from you!
           </p>
 
-          <div className="flex space-x-6">
+          <div className="flex space-x-2 md:space-x-6">
             <a
               href="https://github.com/shubham-panchal1"
               target="_blank"

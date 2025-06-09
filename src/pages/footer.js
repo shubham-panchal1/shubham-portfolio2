@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-center ">&copy; 2025 Shubham Panchal.</h1>
+      <h1 className="text-center mt-3 md:mt-1">&copy; 2025 Shubham Panchal.</h1>
     </footer>
   );
 };
